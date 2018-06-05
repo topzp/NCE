@@ -1,0 +1,174 @@
+/*矿机状态开始*/
+.state{height: 60px;line-height: 60px;background-color: #ffffff;border-radius: 6px;}
+.state p{color:#FF0000}
+@media (max-width: 768px) {  .state{height: auto;line-height: 40px;}  }
+/*矿机状态end*/
+
+/*矿工等级开始*/
+.grade{height: 90px;background-color: #ffffff;border-radius: 6px;margin-top: 22px}
+.grade_total{margin-top: 20px;}
+.grade_miner{float: right;margin-right: 55px;}
+.grade .text{float: right;}
+.grade_title{font-size: 18px;margin-left: 8px}
+.grade_content{color: #4594ff;margin: 0;}
+.grade_state .text,.grade_time .text{margin-right: 100px}
+.grade_state img,.grade_time img,.grade_focrse img{margin-left:60px}
+.grade_focrse .text{margin-right: 30px}
+@media (max-width: 1024px) {
+    .grade_state .text,.grade_time .text{margin-right: 80px}
+    .grade_state img,.grade_time img,.grade_focrse img{margin-left:30px}
+    .grade_focrse .text{margin-right: 14px}
+}
+@media (max-width: 768px) {
+    .grade_title{font-size: 16px;}
+    .grade_content{font-size: 12px;}
+    .grade_miner{margin-right: 0;}
+    .grade_state .text,.grade_time .text{margin-right: 40px}
+    .grade_state img,.grade_time img{margin-left:10px}
+    .grade_focrse img{margin-left:0}
+    .grade_focrse .text{margin-right: 0}
+}
+@media (max-width: 767px){
+    .grade{height: auto;z-index:1; }
+    .grade_state img,.grade_time img{margin-left:20px}
+    .grade .focrse{margin-top: -50px;margin-bottom: 20px;margin-left: 50px}
+    .grade_focrse img{margin-left: 12px}
+}
+@media (max-width: 414px) {
+    .grade_focrse img{margin-left: 32px}
+}
+@media (max-width: 414px) {
+    .grade_focrse img{margin-left: 30px}
+    .grade_state img,.grade_time img{margin-left:40px}
+}
+@media (max-width: 375px){
+    .grade_focrse img{margin-left: 12px}
+    .grade_stase img,.grade_time img{margin-left:20px}
+}
+@media (max-width: 360px){
+    .grade_focrse img{margin-left: 5px}
+    .grade_state img,.grade_time img{margin-left: 10px}
+}
+@media (max-width: 320px){
+    .grade_heads{margin-left: -15px}
+    .grade_state img,.grade_time img{margin-left:0}
+    .grade_state .text,.grade_time .text{margin-right: 30px}
+    .grade_focrse img{margin-left: -18px}
+}
+/*矿工等级end*/
+
+/*矿工信息开始*/
+.index span{color:  #4594ff}
+.information{height: 180px;background-color: #ffffff;border-radius: 6px;position: relative;margin-top: 60px}
+.information .title_line{margin-top: -25px}
+.information_grade{margin-top: -10px;}
+.miner_grade{float: right;margin-right: 155px}
+.miner_title{margin-top: -10px;margin-left: 30px}
+.miner_text{font-size: 12px;color: #ffffff;margin-left: 28px;margin-top: -23px;}
+.gray_line{margin-left: 359px;margin-top: -119px}
+.achievement,.team,.recommend,.administration{text-align: center;margin-top: 55px}
+.ach_title,.team_title,.rch_title,.admin_title{font-size: 18px}
+.ach_text,.team_text,.rch_text,.admin_text{font-size: 28px}
+.ach_title{color: #ff3636;}
+.team_title{color: #2ca8ff;}
+.rch_title{color: #18ce0f;}
+.admin_title{color: #ffb236;}
+@media (max-width: 1024px){
+    .miner_grade{margin-right: 105px}
+    .gray_line{margin-left: 290px;}
+}
+@media (max-width: 768px){
+    .miner_grade{margin-right: 55px}
+    .gray_line{margin-left: 200px;}
+}
+@media (max-width: 767px){
+    .information{margin-top: 40px;height: auto}
+    .miner_grade{margin-right: 105px}
+    .gray_line{display: none}
+    .achievement, .team, .recommend, .administration{margin-top: 15px}
+}
+@media (max-width: 414px){
+    .miner_grade{margin-right: 135px}
+}
+@media (max-width: 375px){
+    .miner_grade{margin-right: 115px}
+}
+@media (max-width: 320px){
+    .miner_grade{margin-right: 95px}
+}
+/*矿工信息end*/
+
+/*矿机信息开始*/
+.model{margin-top: 22px}
+.model .row{margin-left: -25px}
+.model .title_line,.last .title_line{margin-top: -25px;margin-left: 15px }
+.model .title,.last .title{margin-left: 15px;margin-top: -10px}
+.model .model_div{height: 306px;width: 375px;background-color: #ffffff;border-radius: 6px;}
+.model .model_div div{margin-top: 36px;margin-left: 102px}
+.model .model_div div p{margin-top: 41px}
+@media (max-width: 1024px){
+    .model .model_div{width: auto}
+    .model .model_div div{margin-left: 55px}
+}
+@media (max-width: 768px){
+    .model .model_div div{margin-left: 20px}
+    .model .row{margin-left: -15px;}
+    .model .col-sm-4{margin-top: 10px}
+}
+@media (max-width: 767px){
+    .model .model_div{height: auto}
+    .model{margin-top: 0}
+    .model .model_div div{margin-left: 80px;margin-top: 0}
+    .model .model_div div p{margin-top: 15px}
+}
+@media (max-width: 414px){
+    .model .model_div div{margin-left: 100px}
+}
+@media (max-width: 375px){
+    .model .model_div div{margin-left: 80px}
+}
+@media (max-width: 320px){
+    .model .model_div div{margin-left: 50px}
+}
+/*矿机信息end*/
+
+/*价格/公告开始*/
+.last{margin-top: 22px;}
+.last .row{margin:0 -30px}
+#main{margin-top: -50px}
+.tt{z-index: 999;writing-mode:tb-rl;position: absolute;color: #676767;margin-right: 690px;margin-top: 120px}
+.price,.notice{height: 377px;background-color: #ffffff;border-radius: 6px;}
+.notice p a{float: right;color: #9e9e9e;margin-top: -28px;margin-right: 10px}
+.notice p a:hover,.notice_list .fl:hover{color:#4799fe}
+.notice_list{margin-top: 43px;color: #676767;margin-right: 10px;margin-left: 15px}
+.notice_list li{border-top: solid 1px #f3f2f3;line-height:44px;margin-bottom: 1px;position: relative; }
+.notice_list li p{margin: 0}
+.notice_list .fl{color: #676767;}
+.notice_list .fr{color: #b0b0b0;}
+@media (max-width: 1024px){
+    .notice_list .fl,.notice_list .fr{font-size: 12px}
+    #main,canvas{width:670px  !important;}  .tt{margin-right: 560px}
+}
+@media (max-width: 768px){
+    .notice_list .fl,.notice_list .fr{font-size: 14px}
+    .notice{margin-top: 22px}  .last .row{margin:0}
+    .last .col-md-8,.last .col-md-4{padding-left: 0;padding-right: 0}
+    #main{width: 730px  !important;}canvas{width: 770px  !important;}
+    .tt{margin-right: 640px}
+}
+@media (max-width: 767px){
+    .notice_list .fl,.notice_list .fr{font-size: 12px}
+    #main,canvas{width: 400px  !important;}  .tt{margin-right: 320px}
+}
+@media (max-width: 375px){
+    #main,canvas{width: 360px  !important;}  .tt{margin-right: 280px}
+}
+@media (max-width: 360px){
+    #main{width: 330px  !important;}  .tt{margin-right: 265px}
+}
+@media (max-width: 320px){
+    #main{width: 270px  !important;} canvas{width: 310px  !important;}
+    .tt{margin-right: 230px}
+}
+/*价格/公告end*/
+

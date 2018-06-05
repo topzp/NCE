@@ -1,0 +1,63 @@
+/*公共头部开始*/
+*{margin:0;padding:0}
+ul,li{list-style-type: none}
+a{text-decoration: none;color:#333333}
+body{font-size:14px;font-family:MicrosoftYaHei;background: #f1f5f8}
+a:hover{color:#4799fe;text-decoration:none;}
+img{border:0;}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.full{width:100%}
+.layout{width:1100px;margin-left:auto;margin-right:auto}
+.layout6{padding-top:40px;color:#939393}
+.tc{text-align:center}
+.clearfix:after{content:".";display:block;height:0;line-height:0;clear:both;visibility:hidden;font-size:0}
+.clearfix{display:inline-block;*display:inline;*zoom:1}
+*html .clearfix{height:1%;zoom:1}
+*:first-child+html .clearfix{zoom:1}
+.clearfix{display:block}
+/*公共头部end*/
+
+/*header开始*/
+.navbar-default{background-color:#ffffff}
+.header{height: 70px;position: relative;z-index:999}
+.navbar-nav>li>a{padding: 0;line-height: 70px;}
+.header li{line-height: 70px;width: 80px;text-align: center;}
+/*.header li:hover{border-bottom: 2px solid #4799fe;border-left: 1px solid #f7f7f7;border-right: 1px solid #f7f7f7}*/
+.header-list .sy{width: 120px;}
+.header-list .sy .a,.navbar-nav{margin-left: 20px;}
+.container-fluid{width: 1170px;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a{color:#333333;}
+.navbar{border: 0px;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: #ffffff;color: #4799fe;}
+.dropdown-menu{min-width: 80px;padding: 0;border:0;}
+.dropdown-menu li{width: 80px;height: 40px;}
+.dropdown-menu li a{height: 40px;padding: 10px 0 0 0;}
+.dropdown-menu li a:hover,.dropdown-menu li a:focus{background-color: #f1f5f8;}
+.user{margin-left: 240px;margin-top: -10px;}
+.user_img img{margin-top: 20px;}
+.user_list{width: 100px;margin-top: 10px}
+.user_list a{width: 100px}
+
+@media (max-width: 1024px) {
+    .container-fluid{width: auto}
+    .user{margin-left: 0}
+}
+@media (max-width: 768px) {
+    .header li{width: 60px;}
+    .dropdown-menu{min-width: 60px}
+}
+@media (max-width: 767px) {
+    .navbar-toggle{margin-top: -50px;}
+    #navbar-gbtag{background-color: #ffffff;z-index: 1000;overflow:visible;}
+}
+/*header end*/
+
+/*footer开始*/
+footer{height: 153px;background-color: #fcfcfc;margin-top: 48px;text-align: center;}
+footer img{margin-top: 39px}
+footer p{color: #d7e4f5;margin-top: 21px}
+/*footer end*/

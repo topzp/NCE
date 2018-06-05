@@ -1,0 +1,19 @@
+/*个人资产开始*/
+.assets{margin-top: 22px;}
+.balance_nub,.profit_nub,.extract_nub,.account_nub{margin-top: -129px;margin-left: 26px;font-size: 30px;color: #fefefe;}
+.assets .p{margin-left: 26px;font-size: 20px;color: #fefefe;}
+@media (max-width: 1024px) {
+    .balance_nub,.profit_nub,.extract_nub,.account_nub{margin-top: -110px;}
+}
+@media (max-width: 768px) {
+    .balance_nub,.profit_nub,.extract_nub,.account_nub{margin-top: -80px;font-size: 20px;}
+    .assets .p{font-size: 14px;}
+}
+@media (max-width: 767px){
+    .extract,.account{margin-top: 30px}
+}
+@media (max-width: 320px){
+    .balance_nub, .profit_nub, .extract_nub, .account_nub{margin-top: -60px;font-size: 18px;}
+    .assets .p{font-size: 12px;}
+}
+/*个人资产end*/

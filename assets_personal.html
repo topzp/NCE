@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keyword" content="NCE CHAIN">
+    <meta name="description" content="NCE CHAIN">
+    <meta name="author" content="Zztop">
+    <title>个人资产</title>
+    <link rel="shortcut icon" href="img/logo_nce.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/logo_nce.png">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/kj.css">
+    <link rel="stylesheet" href="css/assets.css">
+    <link rel="stylesheet" href="css/assets_p.css">
+</head>
+<body>
+    <!--公共头部开始-->
+    <script src="js/header.js"></script>
+    <!--公共头部end-->
+
+    <!--资产title开始 与矿机公用样式-->
+    <div class="kj_nav container">
+        <ul>
+            <li class="dq"><a href="assets_personal.html">个人资产</a></li>
+            <li><a href="">财务记录</a></li>
+            <div class="clearfix"></div>
+        </ul>
+    </div>
+    <!--资产title end-->
+
+    <!--个人资产开始-->
+    <script src="js/assets.js"></script>
+    <!--个人资产end-->
+
+    <div class="container assets_p">
+        <div class="row">
+            <!--转账、提币、充币title 开始-->
+            <ul id="assets_nav">
+                <li class="active">转账</li>
+                <li id="assets_1">提币</li>
+                <li id="assets_2">充币</li>
+            </ul>
+            <!--转账、提币、充币title end-->
+
+            <ul id="assets_content">
+                <!--转账界面开始-->
+                <li style="display: block">
+                    <div id="assets_account">
+                        <p class="title">转入账户:</p>
+                        <input class="focus" type="text" placeholder="请输要转入的账户">
+                    </div>
+                    <div id="assets_num">
+                        <p class="title">转入数量:</p>
+                        <input class="unfocus" type="text" placeholder="请输要转入数量">
+                    </div>
+                    <div id="assets_poundage">
+                        <p class="title">手续费:</p>
+                        <p class="con">1%</p>
+                    </div>
+                    <div id="assets_estimate">
+                        <p class="title">预计到帐：</p>
+                        <p class="con">1%00000</p>
+                    </div>
+                    <div id="assets_phone">
+                        <p class="title">手机号:</p>
+                        <p class="con">10001564650</p>
+                    </div>
+                    <div id="assets_yzm">
+                        <p  class="title">验证码:</p>
+                        <input class="unfocus" type="text" placeholder="请输入验证码">
+                        <div class="fsyzm">发送验证码</div>
+                        <p class="prompt">
+                            <img src="img/icon_tips.png" alt="icon_tips">&nbsp;&nbsp;
+                            请确认以上转账信息填写正确。 请务必确认电脑及浏览器安全，防止信息被篡改或泄露。
+                        </p>
+                        <div class="confirm">确认转账</div>
+                    </div>
+                </li>
+                <!--转账界面end-->
+
+                <!--提币界面开始-->
+                <li style="display: none">
+                    <div id="extract">
+                        <p class="title">提币账户:</p>
+                        <p class="con">56468798</p>
+                    </div>
+                    <div id="extract_wallet">
+                        <p class="title">钱包地址:</p>
+                        <input class="focus" type="text" placeholder="请输入钱包地址">
+                    </div>
+                    <div id="extract_num">
+                        <p class="title">提币数量:</p>
+                        <input class="unfocus" type="text" placeholder="请输入提币个数">
+                    </div>
+                    <div id="extract_poundage">
+                        <p class="title">手续费:</p>
+                        <p class="con">56468798</p>
+                    </div>
+                    <div id="extract_estimate">
+                        <p class="title">预计到帐：</p>
+                        <p class="con">56468798</p>
+                    </div>
+                    <div id="extract_phone">
+                        <p class="title">手机号:</p>
+                        <p class="con">12365497856</p>
+                    </div>
+                    <div id="extract_yzm">
+                        <p  class="title">验证码:</p>
+                        <input class="unfocus" type="text" placeholder="请输入验证码">
+                        <div class="fsyzm">发送验证码</div>
+                        <p class="prompt">
+                            <img src="img/icon_tips.png" alt="icon_tips">&nbsp;&nbsp;
+                            最小提币数量为：手续费*1.5（计算后的数字）NCE。网络转账费用是不固定的，取决于转
+                            账是合约执行需要消耗的算力。 如果转账失败，我们人工将NCE
+                            退回原账户，处理时间较长，请您谅解。 请务必确认电脑及浏览器安全，防止信息被串改或泄露。
+                        </p>
+                        <div class="confirm">确认提币</div>
+                    </div>
+                </li>
+                <!--提币界面end-->
+
+                <!--充币界面开始-->
+                <li style="display: none">
+                    <div id="ether1">
+                        <p class="title">以太坊钱包地址:</p>
+                        <p class="con">0x8cc0bf80e4d5bce279b1ae613622f7890ba0a282</p>
+                        <div class="copy">复制地址</div>
+                    </div>
+                    <div id="ether2">
+                        <p class="title">以太坊钱包地址:</p>
+                        <div class="QR_code"><img class="img-responsive" src="img/img_space_time.png" alt=""></div>
+                    </div>
+                    <div  id="ether3">
+                        <p class="prompt">
+                            <img src="img/icon_tips.png" alt="icon_tips">&nbsp;
+                            请勿向上述地址充值任何非NCE资产，否则资产将不可找回。 您充值至上述地址 后，需要整个网络节点的确认，15次网
+                            络确认后到账，30次网络确认后可提 币。 您的充值金额：20NCE，小于最小金额的充值将不会上账。 你的充值地址不
+                            会经常改变，可以重复充值；如有更改，我们将尽量通过社区公告或邮件通 知您。 请务必确认电脑及浏览安全，防止信
+                            息被篡改或泄露，
+                        </p>
+                    </div>
+                </li>
+                <!--充币界面end-->
+            </ul>
+        </div>
+    </div>
+
+    <!--公共底部开始-->
+    <script src="js/footer.js"></script>
+    <!--公共底部end-->
+
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/kj_glkj.js"></script>
+    <script src="js/assests_p.js"></script>
+</body>
+</html>

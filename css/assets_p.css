@@ -1,0 +1,79 @@
+/*资产title开始*/
+.kj_nav ul{margin-left: 0}
+/*资产title end*/
+
+/*个人资产开始*/
+.assets{margin-top: 12px}
+/*个人资产end*/
+
+/*转账、提币、充币title 开始*/
+.assets_p{height: 888px;background-color: #ffffff;border-radius: 6px;position: relative;margin-top: 63px}
+#assets_nav{height: 66px;line-height: 64px;font-size: 16px;border-bottom: solid 1px #eeeeee;}
+#assets_nav li{float: left;text-align: center;width: 32px;margin-left: 32px;color: #999999;}
+#assets_nav li:nth-child(2),#assets_nav li:nth-child(3){margin-left: 62px}
+#assets_nav .active{border-bottom: solid 2px #333333;}
+/*转账、提币、充币title end*/
+
+/*转账界面开始*//*提币界面开始*/
+#assets_content li{margin-left: 36px;}
+#assets_content li div{height: 84px;line-height: 84px}
+#assets_account input,#assets_num input,#assets_yzm input,#extract_wallet input,#extract_num input,#extract_yzm input
+{position: absolute;margin-left: 98px;margin-top: -80px;width: 411px;height: 51px;}
+#assets_account,#assets_num,#assets_poundage,#assets_estimate,#assets_phone,#extract,#extract_wallet,#extract_num,
+#extract_poundage,#extract_estimate,#extract_phone,#ether1{width: 1098px;border-bottom: solid 1px #f5f5f5}
+#assets_content .con{position: absolute;margin-left: 98px;margin-top: -94px}
+#assets_estimate .con{color: #4799fe;}
+#assets_yzm .fsyzm,#extract_yzm .fsyzm{width: 119px;height: 51px;line-height:51px;border: solid 1px #87b8fe;
+    text-align: center;color: #87b8fe;position: absolute;margin-left: 530px;margin-top: -80px}
+#assets_yzm .prompt,#extract_yzm .prompt,#ether3 .prompt{margin-left: 98px;color: #ff3636;line-height: 20px}
+#assets_yzm .confirm,#extract_yzm .confirm{margin-left: 98px;width: 160px;height: 50px;background-color: #4799fe;
+    border-radius: 4px;text-align: center;line-height: 50px;font-size: 16px;color:#ffffff;margin-top: 50px;}
+@media (max-width: 1024px) {
+    #assets_account,#assets_num,#assets_poundage,#assets_estimate,#assets_phone,#extract,#extract_wallet,#extract_num,
+    #extract_poundage,#extract_estimate,#extract_phone,#ether1 {width: 904px}
+}
+@media (max-width: 768px) {
+    #assets_account,#assets_num,#assets_poundage,#assets_estimate,#assets_phone,#extract,#extract_wallet,#extract_num,
+    #extract_poundage,#extract_estimate,#extract_phone,#ether1 {width: 686px}
+}
+@media (max-width: 767px) {
+    .assets_p{margin-top: 33px}
+    #assets_account,#assets_num,#assets_poundage,#assets_estimate,
+    #assets_account input, #assets_num input, #assets_yzm input,
+    #assets_phone,#extract,#extract_wallet,#extract_num, #extract_poundage,#extract_estimate,#extract_phone,
+    #extract_wallet input,#extract_num input,#extract_yzm input{width: auto}
+    #assets_content li,#assets_yzm .prompt,#extract_yzm .prompt{margin-left: 10px;}
+    #assets_account input, #assets_num input, #assets_yzm input, #assets_content .con,
+    #extract_wallet input,#extract_num input,#extract_yzm input{margin-left: 78px}
+    #assets_yzm .fsyzm,#extract_yzm .fsyzm{width: 89px;margin-left: 260px}
+    #extract_yzm .confirm{margin-top: 20px}
+}
+@media (max-width: 320px) {
+    .assets_p{margin-top: 23px}
+    #assets_content li,#assets_yzm .prompt,#extract_yzm .prompt{margin-left: 5px;}
+    #assets_account input, #assets_num input, #assets_yzm input, #assets_content .con,
+    #extract_wallet input, #extract_num input, #extract_yzm input{margin-left: 68px}
+    #assets_yzm .fsyzm,#extract_yzm .fsyzm{width: 79px;margin-left: 230px}
+}
+/*转账界面end*//*提币界面end*/
+
+/*充币界面开始*/
+#ether1 .copy{height: 84px}
+#ether1 .con,#ether2 .QR_code{margin-left: 158px}
+#ether1 .copy{position: absolute;margin-left: 558px;margin-top: -70px;width: 91px;height: 29px;
+    background-color: #ffffff;border: solid 1px #87b8fe;line-height: 29px;text-align: center;color: #4799fe;}
+#ether2{height: 193px;}
+#ether2 .title{line-height: 193px}
+#ether2 .QR_code{width: 120px;height: 120px;position: relative;margin-top: -165px;}
+#ether3{border-top: solid 1px #f5f5f5;margin-top: 120px;width: 1098px}
+#ether3 .prompt{margin-top: 35px;margin-left: 158px}
+@media (max-width: 1024px) {  #ether3{width: 904px}  }
+@media (max-width: 768px) {  #ether3{width: 686px}  }
+@media (max-width: 767px) {
+    #ether1{border-bottom:0px;width: auto}  #ether1 .con{margin-left: 0;margin-top: -40px}
+    #ether1 .copy{margin-left: 0;margin-top: 40px}  #ether2{border-top: solid 1px #f5f5f5;margin-top: 120px;}
+    #ether3{width: auto}  #ether3 .prompt{margin-left: 0}
+}
+
+/*充币界面end*/
+
