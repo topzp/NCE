@@ -3,7 +3,7 @@
 *{margin:0;padding:0}
 ul,li{list-style-type: none}
 a{text-decoration: none;color:#333333}
-body{font-size:14px;font-family:myFont;background: #f1f5f8}
+body{font-size:14px;font-family:"myFont";background: #f1f5f8}
 a:hover{color:#4799fe;text-decoration:none;}
 img{border:0;}
 .fl{float:left;display:inline}
